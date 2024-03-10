@@ -26,7 +26,7 @@ public class Patrol : MonoBehaviour
         return waypoints[currentWPIndex];
     }
 
-    void Update()
+    public void PatrolWaypoints()
     {
         if(Vector3.Distance(transform.position, currentWP.transform.position) < WP_THRESHOLD)
         {
