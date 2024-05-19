@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RiverWaterMat
+  m_Shader: {fileID: -6465566751694194690, guid: 64bea738fa70ac34c97ff51523a0e2a0, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Drift_Speed: 0.1
+    - _Highlight_Size: 0.28
+    - _Hightlight_Size: 0.43
+    - _NoiseSize: 8
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ShimmerSize: 4
+    - _Transparency: 0.41
+    - _Vector1_fa98a6ba9d4640da9d000d81e1105058: 0
+    - _Wave1Freq: 2
+    - _Wave1Speed: 0.5
+    - _Wave2Freq: 4
+    - _Wave2Speed: 0.7
+    m_Colors:
+    - WHColor: {r: 0.043137256, g: 0.972549, b: 0.84705883, a: 0}
+    - _Base_River_Color: {r: 0.1882353, g: 0.59607846, b: 0.5686275, a: 0}
+    - _Emissive_Color: {r: 0.16862746, g: 0.19607843, b: 0.28627452, a: 0}
+    - _Hightlight_Color: {r: 0.462745, g: 0.654902, b: 0.7568628, a: 0}
+    - _Shimmer_Color: {r: 0.9647059, g: 0.9529412, b: 0.6431373, a: 0}
+    - _Vector2: {r: 0, g: 0, b: 0, a: 0}
+    - _Wave1Angle: {r: 0.23, g: 0, b: 0, a: 0}
+    - _Wave2Angle: {r: 0.41, g: -0.06, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &7439230668359852137
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
